@@ -1,0 +1,53 @@
+{
+    "log": {
+        "file": {
+            "path": "/home/logstash/test.log"
+        }
+    },
+    "severity": "High",
+    "priority": "14",
+    "@version": "1",
+    "pid": "2496",
+    "source_ip": "10.58.194.142",
+    "program": "antivirus",
+    "description": "Virus Found",
+    "@timestamp": "2025-04-24T06:39:49.415313670Z",
+    "version": "1",
+    "src": "acmeinchost1",
+    "timestamp": "2016-12-25T09:03:52.754646-06:00",
+    "severity_level": "1",
+    "message": "<14>1 2016-12-25T09:03:52.754646-06:00 acmeinchost1 antivirus 2496 - - alertname=\"Virus Found\" computername=\"acmeincpc42\" computerip=\"10.58.194.142\" severity=\"1\"",
+    "event": {
+        "original": "<14>1 2016-12-25T09:03:52.754646-06:00 acmeinchost1 antivirus 2496 - - alertname=\"Virus Found\" computername=\"acmeincpc42\" computerip=\"10.58.194.142\" severity=\"1\""
+    },
+    "host": {
+        "name": "vultr"
+    },
+    "hostname": "acmeincpc42"
+}{
+    "severity": "High",
+    "log": {
+        "file": {
+            "path": "/home/logstash/test.log"
+        }
+    },
+    "description": "Virus Found",
+    "hostname": "acmeincpc42",
+    "src": "acmeinchost1",
+    "timestamp": "2016-12-25T09:03:52.754646-06:00",
+    "event": {
+        "original": "<14>1 2016-12-25T09:03:52.754646-06:00 acmeinchost1 antivirus 2496 - - alertname=\"Virus Found\" computername=\"acmeincpc42\" computerip=\"10.58.194.142\" severity=\"1\""
+    },
+    "char_num": "1",
+    "@timestamp": "2025-04-24T22:04:07.218108319Z",
+    "program": "antivirus",
+    "severity_level": "1",
+    "source_ip": "10.58.194.142",
+    "pid": "2496",
+    "@version": "1",
+    "message": "<14>1 2016-12-25T09:03:52.754646-06:00 acmeinchost1 antivirus 2496 - - alertname=\"Virus Found\" computername=\"acmeincpc42\" computerip=\"10.58.194.142\" severity=\"1\"",
+    "line_num": "14",
+    "host": {
+        "name": "vultr"
+    }
+}
